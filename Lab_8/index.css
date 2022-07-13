@@ -17,4 +17,49 @@
 
 .question-container {
     font-weight: bolder;
+    margin-top: 60px;
+}
+
+.part {
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+}
+
+.answer-container {
+    margin-top: 7.5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #D9EEFF;
+    border-radius: 3px;
+    border: none;
+    margin: 1.5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #D9DBFF;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.textbox {
+    width: 25%;
+    height: 25px;
 }
