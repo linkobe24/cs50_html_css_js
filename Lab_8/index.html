@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trivia!</title>
         <link rel="stylesheet" href="index.css">
+       
     </head>
+
     <body>
         <div class="header">
             <h1>Trivia!</h1>
@@ -16,26 +18,30 @@
             <div class="section">
                 <h2>Part 1: Multiple Choice</h2>
                 <hr>
-                <h4>What is the approximate ratio of people to sheep in New Zealand?</h4>
+                <h3>What is the approximate ratio of people to sheep in New Zealand?</h4>
+                    <p id="ans-1"></p>
                 <div class="multiple-choice answer-container">
-                    <button class="btn">6 people per 1 sheep</button>
-                    <button class="btn">3 people per 1 sheep</button>
-                    <button class="btn">1 people per 1 sheep</button>
-                    <button class="btn">1 people per 3 sheep</button>
-                    <button class="btn">1 people per 6 sheep</button>
+                    <button class="btn btn-ch">6 people per 1 sheep</button>
+                    <button class="btn btn-ch">3 people per 1 sheep</button>
+                    <button class="btn btn-ch">1 people per 1 sheep</button>
+                    <button class="btn btn-ch">1 people per 3 sheep</button>
+                    <button class="btn btn-ch">1 people per 6 sheep</button>
                 </div>
             </div>
             <div class="section">
                 <h2>Part 2: Free Response</h2>
                 <hr>
-                <h4>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h4>
-                <div class="answer-form answer-container">
-                    <form>
-                        <input autocomplete="off" type="text" name="answer" class="">
-                        <input type="submit" value="Check Answer" class="btn">
-                    </form>
-                </div>
+                <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h4>
+                    <p id="ans-2"></p>
+                    <div class="answer-form answer-container">
+                        <input autocomplete="off" type="text" id="answer-input" placeholder="Country">
+                        <button class="btn" id="answer-btn">Check Answer</button>
+                    </div>
             </div>
         </div>
+        <div class="section reset">
+            <button class="btn"id="reset-btn">Reset</button>
+        </div>
+    <script src="index.js"></script>
     </body>
 </html>

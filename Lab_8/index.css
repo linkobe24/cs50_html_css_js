@@ -25,6 +25,7 @@ body {
 
 .section {
     padding: 0.5rem 2rem 1rem 2rem;
+    
 }
 
 .section:hover {
@@ -64,4 +65,15 @@ input[type="text"] {
 input[type="text"]:hover {
     background-color: #f5f5f5;
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
 }
