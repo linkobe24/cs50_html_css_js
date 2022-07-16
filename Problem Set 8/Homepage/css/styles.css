@@ -1,41 +1,7 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #333;
-}
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  background-color: #333;
-}
-
-.logo {
-  width: 150px;
-  height: auto;
-  margin-right: 70%;
-}
-
-.nav-item {
-  display: inline-block;
-}
-.nav-item a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-}
-.nav-item a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #04AA6D;
 }/*# sourceMappingURL=styles.css.map */
